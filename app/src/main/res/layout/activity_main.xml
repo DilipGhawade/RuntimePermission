@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghawadedilip.runtimepermission.MainActivity">
+
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="use camera"
+      android:textSize="20sp"
+        android:id="@+id/btn_use_camera"
+
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/btn_grouppermission"
+        android:layout_centerHorizontal="true" />
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Write External Storage"
+    android:textSize="20sp"
+      android:id="@+id/btn_wrtexternal_storage"
+      android:layout_centerVertical="true"
+      android:layout_centerHorizontal="true" />
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="read contact"
+    android:textSize="20sp"
+      android:id="@+id/btn_read_contact"
+      android:layout_marginTop="56dp"
+      android:layout_below="@+id/btn_wrtexternal_storage"
+      android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group permission"
+        android:textSize="20sp"
+        android:id="@+id/btn_grouppermission"
+        android:layout_marginTop="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
